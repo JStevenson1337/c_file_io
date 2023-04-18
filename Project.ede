@@ -1,0 +1,7 @@
+;; Object working_with_files
+;; EDE Project Files are auto generated: Do Not Edit
+(ede-proj-project "working_with_files"
+  :file "Project.ede"
+  :name "working_with_files"
+  :targets nil
+  :object-name "working_with_files")
