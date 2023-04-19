@@ -1,13 +1,21 @@
-#include <stdio.h>
-#include <dirent.h>
-#include <sys/stat.h>
-#include <sys/types.h>
+#include "file_io.h"
 
 int main(int argc, char **argv)
 {
 	struct dirent *dp;
-	DIR *dfd;
+	DIR *dfd =  opendir("Files");
+	if ( !dfd)
+	{
+		return (1);
+	}
 	
+
+	entity = readdir(dir);
+
+	while (entity != NULL)
+	{
+		printf("%s\n", entity->d_name);
+	}
 
 	char *dir;
 
